@@ -1,0 +1,14 @@
+[root@ip-172-31-58-193 home]# touch demo.txt
+[root@ip-172-31-58-193 home]#
+[root@ip-172-31-58-193 home]# ll
+total 0
+-rw-r--r--. 1 root     root      0 Mar  6 16:08 demo.txt
+drwx------. 3 ec2-user ec2-user 74 Mar  6 15:52 ec2-user
+[root@ip-172-31-58-193 home]#
+[root@ip-172-31-58-193 home]# chmod 764 demo.txt
+[root@ip-172-31-58-193 home]#
+[root@ip-172-31-58-193 home]# ls -l demo.txt
+-rwxrw-r--. 1 root root 0 Mar  6 16:08 demo.txt
+[root@ip-172-31-58-193 home]# pwd
+/home
+[root@ip-172-31-58-193 home]#
